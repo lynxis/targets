@@ -9,6 +9,7 @@ include $(TOPDIR)/rules.mk
 ARCH:=sparc
 BOARD:=sparc
 BOARDNAME:=Sun UltraSPARC
+CPU_TYPE:=ultrasparc
 FEATURES+=fpu tgz ext4 squashfs broken
 
 KERNEL_PATCHVER:=3.10
